@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: "DM Serif Text", serif;
+}
+
+body {
+    background-color: #f5ffe3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.switch-btn {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+.switch-btn img {
+    width: 50px;
+}
+
+.money-img {
+    margin-top: 40px;
+    width: 210px;
+}
+
+.curency {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.curency select {
+    padding: 10px;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    font-size: 16px;
+    background: transparent;
+    appearance: none;
+}
+
+.curency input {
+    border: 0;
+    background: transparent;
+    margin-left: 5px;
+    font-size: 30px;
+    text-align: right;
+}
+
+.switch-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rate{
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+select:focus, input:focus, button:focus {
+    outline: 0;
+}
